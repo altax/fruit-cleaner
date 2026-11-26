@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Fruit Cleaner",
-  "version": "свежий помидор",
+  "version": "1",
   "description": "никс опять чето впернул",
   "host_permissions": ["*://*.cybersport.ru/*"],
   "action": {
