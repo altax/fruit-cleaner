@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Fruit Cleaner",
+  "version": "1.6",
+  "description": "никс опять чето впернул",
+  "host_permissions": ["*://*.cybersport.ru/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": { "128": "icon128.png" }
+  },
+  "icons": { "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["*://*.cybersport.ru/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
